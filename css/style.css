@@ -1,0 +1,304 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+.rightside{
+	  background-color:#dadada;
+	  height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+   }
+
+  
+.leftside{
+    background-color:#201e1e;
+    height:100vh;
+    float:left!important;
+    width:20%;
+
+}
+
+
+footer{
+	background-color:#9fa5ad;
+	padding:10px 0px;
+}
+
+ul.review {
+    list-style-type: none;
+}
+
+li.reone::after {
+    content: "";
+    width: 58px;
+    height: 2px;
+    background: red;
+    display: block;
+    margin-bottom: 4px;
+}
+
+ul.our{
+	list-style-type:none;
+}
+
+li.pre::after {
+    content: "";
+    width: 68px;
+    height: 2px;
+    background: red;
+    display: block;
+    margin-bottom: 4px;
+}
+
+ul.services{
+	list-style-type:none;
+}
+
+li.ser::after {
+    content: "";
+    width: 68px;
+    height: 2px;
+    background: red;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.main{
+	list-style-type:none;
+}
+
+ul.main li{
+	font-weight:600;
+	color:#000000;
+}
+
+li.ser {
+    font-size: 18px;
+    font-weight: 600;
+    color:#000000;
+}
+
+.weone{
+	color:#566170;
+	font-size:22px;
+}
+
+.gotone{
+	color:#E9222E;
+	font-size:22px;
+}
+.newone{
+	font-size:26px;
+	color:#363D46;
+}
+
+.fe{
+ color:#514F4F;
+}
+
+#properti{
+    padding-top:40px;
+    padding-bottom:60px;
+}
+
+#Project{
+    padding-top:40px;
+    padding-bottom:60px;   
+}
+
+.raone{
+    color:#010101;
+    font-size:35px;
+}
+
+.rasone{
+    color:#010101;
+    font-size:30px;
+}
+
+.yoone{
+   color:#010101;
+    font-size:25px;
+}  
+
+.cent{
+    text-align:center;
+}
+
+.social{
+    display:block;
+    width:30px;
+    margin-top:80px;
+    padding-left:20px;
+
+}
+
+
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.menu{
+    font-size:20px;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    right:20px;
+    top:20px;
+
+}
+
+/*media query*/
+
+
+@media screen and (max-width:767px) {
+
+    #properti {
+       padding-top:40px;
+       padding-bottom:2px;
+       text-align:center;
+    }
+
+    #Project {
+       padding-top: 40px;
+       padding-bottom:28px;
+       text-align: center;
+     }
+
+   .newone {
+      font-size: 22px;
+      color: #363D46;
+      line-height: 15px;
+    }
+
+    .social {
+    display: block;
+    width: 131px;
+    margin-top: 9px;
+    /* padding-left: 20px; */
+    float: right;
+    padding: 5px 18px;
+  }
+
+  .leftside {
+    background-color: #201e1e;
+    height: 70px;
+    float: left!important;
+    width: 20%;
+}
+
+.raone {
+    color: #010101;
+    font-size: 25px;
+}
+
+.rasone {
+    color: #010101;
+    font-size: 20px;
+}
+
+.yoone {
+    color: #010101;
+    font-size: 18px;
+}
+ 
+}
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+
+    #properti {
+       padding-top:40px;
+       padding-bottom:2px;
+       text-align:center;
+    }
+
+    #Project {
+       padding-top: 40px;
+       padding-bottom:28px;
+       text-align: center;
+     }
+
+   .newone {
+      font-size: 22px;
+      color: #363D46;
+      line-height: 15px;
+    }
+
+    .social {
+    display: block;
+    width: 131px;
+    margin-top: 9px;
+    /* padding-left: 20px; */
+    float: right;
+    padding: 5px 18px;
+  }
+
+  .leftside {
+    background-color: #201e1e;
+    height: 70px;
+    float: left!important;
+    width: 20%;
+}
+
+.raone {
+    color: #010101;
+    font-size: 25px;
+}
+
+.rasone {
+    color: #010101;
+    font-size: 20px;
+}
+
+.yoone {
+    color: #010101;
+    font-size: 18px;
+}
+ 
+}
